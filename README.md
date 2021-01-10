@@ -9,6 +9,7 @@ Create a project and a firestore database. Then go to project settings -> regist
 Environment setup:   
 Open a new folder named ‘Session-State’ in Visual Studio code. Then write these commands into the terminal.
 > npm install -g firebase-tools
+
 > firebase init  
 
 After login to firebase account.   
