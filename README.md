@@ -7,7 +7,8 @@ Firebase setup:
 Create a project and a firestore database. Then go to project settings -> register a web app.   
 
 Environment setup:   
-Open a new folder named ‘Session-State’ in Visual Studio code. Then write these commands into the terminal.   
+Open a new folder named ‘Session-State’ in Visual Studio code. Then write these commands into the terminal.
+> npm install -g firebase-tools
 > firebase init  
 
 After login to firebase account.   
@@ -16,8 +17,8 @@ Choose an existing project. Then select the project.
 Then choose javascript.   
 Use ESLint.  
 Install all necessary npm dependencies   
-> npm install express cors axios   
-> npm install apisauce --save   
+> npm install express cors    
+> npm install body-parser guid  
 
 Copy and replace the index.js file from “Session-State/functions” in the newly created Session-State/functions folder.   
   
